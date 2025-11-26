@@ -24,8 +24,20 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+# Reg.No: 212223060067
+# Name: GEERTHIVASH J D
+def createlist(n):
+    l=[]
+    for i in range(2,n):
+        if i%2==0:
+            l.append(i)
+    print(l)
 ```
 
 ### OUTPUT
 
+<img width="777" height="201" alt="image" src="https://github.com/user-attachments/assets/02517d1d-9e33-4634-baad-40565574962a" />
+
+
 ### RESULT
+Thus a Python function that accepts a number N and creates a list containing all even numbers up to N was executed and implemented successfully.
